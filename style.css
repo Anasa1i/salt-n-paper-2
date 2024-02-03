@@ -1,0 +1,351 @@
+@font-face {
+    font-family: futurak;
+    src: url(futurak.ttf);
+}
+body{
+    color: #FFFFFF;
+    background-color: #000000;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: apercu;
+    margin: 0;
+    
+}
+
+
+.header{
+    /* width: 100%; */
+
+    background-color: #000;
+    padding: 10px 50px;
+}
+
+
+.logo>img{
+    width: 150px;
+}
+.menu >li{
+    display: inline-block;
+    color: #fff;
+    margin-right: 20px;
+}
+.logo,.right-side{
+    display: inline-block;
+}
+.logo{
+    width: 30%;
+    
+    vertical-align: middle;
+}
+.right-side{
+    width: 55%;
+    /* vertical-align: baseline; */
+    text-align: right;
+    margin-left: 150px;
+}
+.btns>button{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 35px;
+}
+
+.btn-one{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff !important;
+}
+.btn-two{
+    background-color: #ed1c24;
+    border: 1px solid #ed1c24 !important;
+    color: #fff;
+}
+.menu{
+    display: inline-block;
+}
+.btns{
+    display: inline-block;
+}
+.right-side{
+    margin-bottom: 0px;
+}
+.btn-two>i{
+    background-color: #fff;
+    color: #ed1c24;
+    padding: 8px;
+    margin-left: 2px;
+    border-radius: 100%;
+}
+.btn-two{
+    padding: 10px  !important;
+}
+.slide{
+    width: 100%;
+    height: 500px;
+}
+.slide>img{
+    width: 100%;
+    height: 100%;
+}
+.intro{
+    width: 1242px ;
+    height: 500px;
+    background-color: #000;
+    margin-left: 8px;
+
+}
+.intro>.content>h2{
+    margin: 0px;
+    color: #fff;
+}
+.content{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+.content>h2{
+    font-size: 40px;
+}
+.content>h2>span{
+    font-family: "futurak";
+    letter-spacing: 2px;
+}
+.content >p{
+    color: rgba(255, 255, 255, 0.7);
+}
+.card-logo{
+    text-align: center;
+    width: 250px;
+    background-color: #fff;
+    padding: 20px 10px;
+}
+.card-logo>img{
+    width: 70%;
+}
+.card-btn> button{
+    border: none;
+    padding: 15px 50px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+.card-btn{
+    width: 250px;
+    margin-top: 10px;
+    text-align: center;
+}
+.cards{
+    display: inline-block;
+}
+.card-container{
+    text-align: center;
+    margin-left: 100px;
+}
+.center-card{
+    margin: 0px 20px;
+}
+.main_custom_heading{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.contacts>.header{
+    text-align: center;
+    color: #fff;
+    margin-left: 8px;
+    /* margin-top: 20%; */
+}
+.contacts>.header>h2>span:hover{
+    font-family: "futurak";
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-size: 40px;   
+    text-align: center;
+    -webkit-text-fill-color: yellow;
+    
+}
+
+@keyframes animatebg{
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+td>h2>span:hover{
+    font-family: "futurak";
+    letter-spacing: 2px;
+    font-size: 40px;  
+}
+td>h2{
+    font-size: 40px;
+}
+td>p{
+    color:  rgba(255, 255, 255, 0.5);
+}
+td>button{
+    border: none;
+    padding: 15px 50px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+table {
+    width: 100%;
+    /* border-collapse: collapse; */
+    margin-left: 1%;
+    margin-right:10% ;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /* order-bottom: 1px solid #d bdd; Optional: add a border between rows */
+    padding: 2% 8%; /* Optional: add padding to each row */
+}
+
+td {
+    width: 50%;  /* Optional: adjust the width as needed */
+}
+
+h4 {
+    color: #ed1c24;
+    letter-spacing: 5px;
+}
+
+button {
+    background-color: #ed1c24;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+.New>img{
+    width: 350px;
+    height: 250px;
+}
+.express>h2>span:hover{
+    font-family: "futurak";
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.express>h2{
+    font-size: 30px;
+}
+.express>p{
+    color:  rgba(255, 255, 255, 0.5);   
+}
+
+.express>button{
+    border: none;
+    padding: 15px 50px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+.locations {
+    display: flex;  
+    justify-content:space-around; /* Adjust as needed */
+    align-items: center; /* Adjust as needed */
+    /* margin: 2% 7%; */
+}
+.express{
+    text-align: center;
+}
+.webp{
+    /* display; */
+}
+.pc>img{
+    width: 670px;
+}
+.exp>h2>span{
+    font-family: "futurak";
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+.exp>h2{
+    font-size: 40px;
+}
+.exp>p{
+    font-size: 20px;
+}
+.exp>button{
+    border: none;
+    padding: 15px 50px;
+    border-radius: 35px;
+    background-color:red;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    animation: animatebg 1s linear infinite;
+}
+.exp{
+    margin: 0px 30px;
+}
+.heads{
+    text-align: center;
+}
+.heads>h2{
+    font-family: "futurak";
+    letter-spacing: 2px;
+    font-size: 60px;    
+}
+.heads>h6>span{
+    font-size:50px ;
+}
+.heads>h6{
+    font-size: 30px;
+    margin-top: -50px;
+}
+.data{
+    background-color: white;
+    text-align: center;
+    height: 225px;
+    width: 400px;
+    margin: 20px 10px;
+    border-radius: 3px;
+    margin-top: -60px;
+}
+.data>p{
+color: #000; 
+font-size: 20px;
+}
+.mta>img{
+    width: 18%;
+    margin: 0px 8px;
+    margin-left: 15px;
+}
+.pmt>img{
+    width: 200px;
+}
+.pngs>img{
+    width: 50px;
+    border-radius: 100px;
+    margin: 20px 5px;
+}
+.app>img{
+    margin: 6px;
+}
+.png{
+    width: 1200px;
+}
+.pmt{
+    height: 300px;
+    margin: 0px 40px;
+}
+.pngs{
+    height: 300px;
+}
+.png{
+    /* margin: 0px -1000px; */
+    margin-left: -100px;
+}
+table{
+    margin-top: 80px;
+}
+.bye>h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
